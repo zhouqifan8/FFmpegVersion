@@ -1,0 +1,11 @@
+prefix=/d/ffmpeg3.3.9/ffmpegmore1/ffmpeg-3.3.9/fdk-aac-0.1.3/android/x86
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Fraunhofer FDK AAC Codec Library
+Description: AAC codec library
+Version: 0.1.3
+Libs: -L${libdir} -lfdk-aac 
+Libs.private: -lm 
+Cflags: -I${includedir}

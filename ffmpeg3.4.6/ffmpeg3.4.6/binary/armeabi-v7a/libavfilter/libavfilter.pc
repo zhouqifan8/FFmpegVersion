@@ -1,0 +1,14 @@
+prefix=/d/ffmpeg3.4.6/ffmpeg3.4.6/dist/ffmpeg-3.4.6/armeabi-v7a/
+exec_prefix=${prefix}
+libdir=/d/ffmpeg3.4.6/ffmpeg3.4.6/dist/ffmpeg-3.4.6/armeabi-v7a//lib
+includedir=/d/ffmpeg3.4.6/ffmpeg3.4.6/dist/ffmpeg-3.4.6/armeabi-v7a//include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 6.107.100
+Requires: 
+Requires.private: libswscale >= 4.8.100, libpostproc >= 54.7.100, libswresample >= 2.9.100, libavformat >= 57.83.100, libavcodec >= 57.107.100, libavutil >= 55.78.100
+Conflicts:
+Libs: -L${libdir}  -lavfilter 
+Libs.private: -lm -lz -pthread -pthread
+Cflags: -I${includedir}

@@ -1,0 +1,46 @@
+libavcodec/fdctdsp.o: \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavcodec/fdctdsp.c \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/attributes.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavcodec/avcodec.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/samplefmt.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/avutil.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/common.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/attributes.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/macros.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/version.h \
+ libavutil/avconfig.h config.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/intmath.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/mem.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/error.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/internal.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/timer.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/log.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/cpu.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/dict.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/pixfmt.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/libm.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/intfloat.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/mathematics.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/rational.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/avutil.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/buffer.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/cpu.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/channel_layout.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/dict.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/frame.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/buffer.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/samplefmt.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/hwcontext.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/frame.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/log.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/pixfmt.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/rational.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavcodec/version.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/version.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavcodec/dct.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavcodec/rdft.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavcodec/fft.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavutil/mem.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavcodec/avfft.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavcodec/faandct.h \
+ D:/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/ffmpeg-4.0.2/libavcodec/fdctdsp.h

@@ -1,0 +1,14 @@
+prefix=/d/ffmpeg3.4.6/ffmpeg3.4.6/dist/ffmpeg-3.4.6/armeabi-v7a/
+exec_prefix=${prefix}
+libdir=/d/ffmpeg3.4.6/ffmpeg3.4.6/dist/ffmpeg-3.4.6/armeabi-v7a//lib
+includedir=/d/ffmpeg3.4.6/ffmpeg3.4.6/dist/ffmpeg-3.4.6/armeabi-v7a//include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 57.83.100
+Requires: 
+Requires.private: libavcodec >= 57.107.100, libavutil >= 55.78.100
+Conflicts:
+Libs: -L${libdir}  -lavformat 
+Libs.private: -lm -lz -pthread -pthread
+Cflags: -I${includedir}

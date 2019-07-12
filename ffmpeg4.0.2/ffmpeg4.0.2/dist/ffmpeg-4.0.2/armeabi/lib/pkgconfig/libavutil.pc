@@ -1,0 +1,14 @@
+prefix=/d/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/dist/ffmpeg-4.0.2/armeabi/
+exec_prefix=${prefix}
+libdir=/d/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/dist/ffmpeg-4.0.2/armeabi//lib
+includedir=/d/ffmpeg/ffmpeg4.0.2/ffmpeg4.0.2/dist/ffmpeg-4.0.2/armeabi//include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.14.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lm
+Cflags: -I${includedir}

@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}/../../../libpostproc
+includedir=/d/ffmpeg3.4.6/ffmpeg3.4.6/ffmpeg-3.4.6
+
+Name: libpostproc
+Description: FFmpeg postprocessing library
+Version: 54.7.100
+Requires:  libavutil >= 55.78.100
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,${libdir} -lpostproc 
+Cflags: -I${includedir}

@@ -1,0 +1,29 @@
+libavcodec/sinewin_fixed.o: \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavcodec/sinewin_fixed.c \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavcodec/sinewin.h config.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/mem.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/attributes.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/error.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/avutil.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/common.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/macros.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/version.h libavutil/avconfig.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/intmath.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/mem.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/internal.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/timer.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/log.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/cpu.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/dict.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/pixfmt.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/libm.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/intfloat.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/mathematics.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/rational.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavcodec/aac_defines.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/softfloat.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/avassert.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/softfloat_tables.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavcodec/sinewin_tablegen.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/attributes.h \
+ D:/ffmpeg/ffmpeg4.0/ffmpeg-4.0/libavutil/common.h

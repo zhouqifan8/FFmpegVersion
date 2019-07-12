@@ -1,0 +1,14 @@
+prefix=/d/ffmpeg3.4.6/ffmpeg3.4.6/dist/ffmpeg-3.4.6/x86/
+exec_prefix=${prefix}
+libdir=/d/ffmpeg3.4.6/ffmpeg3.4.6/dist/ffmpeg-3.4.6/x86//lib
+includedir=/d/ffmpeg3.4.6/ffmpeg3.4.6/dist/ffmpeg-3.4.6/x86//include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 55.78.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -lm
+Cflags: -I${includedir}

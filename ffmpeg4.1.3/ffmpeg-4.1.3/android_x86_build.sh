@@ -1,0 +1,66 @@
+basepath=$(cd `dirname $0`; pwd)
+export TMPDIR=$basepath/ffmpegtemp
+# NDK的路径，根据自己的安装位置进行设置
+NDK=D:/AS/NDK/android-ndk-r15c
+# 编译针对的平台，可以根据自己的需求进行设置
+# 这里选择最低支持android-14, arm架构，生成的so库是放在
+# libs/armeabi文件夹下的，若针对x86架构，要选择arch-x86
+PLATFORM=$NDK/platforms/android-14/arch-x86
+# 工具链的路径，根据编译的平台不同而不同
+# arm-linux-androideabi-4.9与上面设置的PLATFORM对应，4.9为工具的版本号，
+# 根据自己安装的NDK版本来确定，一般使用最新的版本
+TOOLCHAIN=$NDK/toolchains/x86-4.9/prebuilt/windows-x86_64
+
+CPU=x86
+
+FF_EXTRA_CFLAGS="-O3 -DANDROID -Dipv6mr_interface=ipv6mr_ifindex -fasm -Wno-psabi -fno-short-enums -fno-strict-aliasing -fomit-frame-pointer -march=k8 "
+FF_CFLAGS="-O3 -Wall -pipe \
+-ffast-math \
+-fstrict-aliasing -Werror=strict-aliasing \
+-Wno-psabi -Wa,--noexecstack \
+-DANDROID  "
+
+PREFIX=./android/$CPU
+
+
+build_one(){
+./configure \
+--prefix=$PREFIX \
+--enable-shared \
+--disable-static \
+--disable-doc \
+--disable-ffplay \
+--disable-ffmpeg \
+--disable-ffprobe \
+--disable-symver \
+--disable-yasm \
+--disable-asm \
+--cross-prefix=$TOOLCHAIN/bin/i686-linux-android- \
+--target-os=android \
+--arch=$CPU \
+--enable-cross-compile \
+--sysroot=$PLATFORM \
+--enable-small \
+--enable-gpl \
+--enable-pic \
+--enable-jni \
+--enable-mediacodec \
+--enable-decoder=h264_mediacodec \
+--enable-hwaccel=h264_mediacodec \
+--enable-decoder=hevc_mediacodec \
+--enable-decoder=mpeg4_mediacodec \
+--enable-decoder=vp8_mediacodec \
+--enable-decoder=vp9_mediacodec \
+--enable-nonfree \
+--enable-version3 \
+--extra-cflags="$FF_EXTRA_CFLAGS  $FF_CFLAGS" \
+--extra-ldflags="  "
+$ADDITIONAL_CONFIGURE_FLAG
+}
+build_one
+
+
+
+make clean
+make -j16
+make install

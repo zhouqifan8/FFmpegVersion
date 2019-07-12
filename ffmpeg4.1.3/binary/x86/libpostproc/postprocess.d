@@ -1,0 +1,35 @@
+libpostproc/postprocess.o: \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libpostproc/postprocess.c config.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/avutil.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/common.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/attributes.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/macros.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/version.h \
+ libavutil/avconfig.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/intmath.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/mem.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/error.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/avutil.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/internal.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/timer.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/log.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/cpu.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/dict.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/pixfmt.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/libm.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/intfloat.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/mathematics.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/rational.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/avassert.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/intreadwrite.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/bswap.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libpostproc/postprocess.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libpostproc/version.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libpostproc/postprocess_internal.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/intmath.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/log.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/avstring.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/ppc/util_altivec.h \
+ libavutil/ffversion.h \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libpostproc/postprocess_template.c \
+ D:/ffmpeg/ffmpeg4.1.3/ffmpeg-4.1.3/libavutil/x86/asm.h
